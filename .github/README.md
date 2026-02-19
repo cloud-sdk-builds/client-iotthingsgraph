@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-iotthingsgraph`](https://www.npmjs.com/package/@aws-sdk/client-iotthingsgraph/v/3.197.0).
+[`@aws-sdk/client-iotthingsgraph`](https://www.npmjs.com/package/@aws-sdk/client-iotthingsgraph/v/3.198.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotthingsgraph@3.197.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotthingsgraph@3.198.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-ai7umQr87mSbRz2R8w4b+GfOQ6/+fy7AN9Pn9NnwskJgP+vlfX12S8+16NGUydqj
+sha384-ZoE7/rrnLTnZTXqzakc3W+EMok4qL+NZVi+5d1+P4b1ixv5EYd0bTN6vRBMunqfl
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-iotthingsgraph": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotthingsgraph@3.197.0/index.min.mjs"
+            "@aws-sdk/client-iotthingsgraph": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotthingsgraph@3.198.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotthingsgraph@3.197.0/index.min.mjs": "sha384-ai7umQr87mSbRz2R8w4b+GfOQ6/+fy7AN9Pn9NnwskJgP+vlfX12S8+16NGUydqj"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotthingsgraph@3.198.0/index.min.mjs": "sha384-ZoE7/rrnLTnZTXqzakc3W+EMok4qL+NZVi+5d1+P4b1ixv5EYd0bTN6vRBMunqfl"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-iotthingsgraph": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotthingsgraph@3.197.0/index.min.mjs"
+                        "@aws-sdk/client-iotthingsgraph": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotthingsgraph@3.198.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotthingsgraph@3.197.0/index.min.mjs": "sha384-ai7umQr87mSbRz2R8w4b+GfOQ6/+fy7AN9Pn9NnwskJgP+vlfX12S8+16NGUydqj"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotthingsgraph@3.198.0/index.min.mjs": "sha384-ZoE7/rrnLTnZTXqzakc3W+EMok4qL+NZVi+5d1+P4b1ixv5EYd0bTN6vRBMunqfl"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.197.0`)
+* Always pin to a specific version (`@3.198.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-iotthingsgraph/blob/refs/tags/3.197.0/LICENSE
+https://github.com/cloud-sdk-builds/client-iotthingsgraph/blob/refs/tags/3.198.0/LICENSE
 ```
 
 ---
